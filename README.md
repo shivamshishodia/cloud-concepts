@@ -11,3 +11,4 @@ Kubernetes Practice - Basics
 
 ### 1. Refer basic-kubectl-commands
 ### 2. Refer basic-yaml-configs
+### 3. Refer demo-mongo
