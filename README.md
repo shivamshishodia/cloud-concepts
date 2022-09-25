@@ -9,4 +9,4 @@ Kubernetes Practice - Basics
 - Get status of nodes: Use `minikube status` or `kubectl get nodes`.
 - Use `minikube cli` for managing cluster and `kubectl cli` for configuring cluster. 
 
-### Refer basic-kubectl-commands
+### 1. Refer basic-kubectl-commands

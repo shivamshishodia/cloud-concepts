@@ -12,7 +12,7 @@ Log to console `kubectl logs [pod name]`
 Get Interactive tunnel `kubectl exec -it [pod name] -- bin/bash`
 ```
 
-## Kubectl Practice
+## Basic Kubectl Practice
 - Create deployment named as 'nginx-depl' `kubectl create deployment nginx-depl --image=nginx`.
 - Get the deployments `kubectl get deployments`.
 - Get the pods and wait for the pod to start `kubectl get pods`.
@@ -23,4 +23,4 @@ Get Interactive tunnel `kubectl exec -it [pod name] -- bin/bash`
 - Log check inside pod `kubectl logs nginx-depl-5b59dcd777-ng6kn`.
 - Interactive shell inside pod `kubectl exec -it nginx-depl-5b59dcd777-ng6kn -- bin/bash`.
 - Delete a deployment `kubectl delete deployment nginx-depl`. This will delete everything underneath deployment (replicasets, pods, etc.).
-- Apply usage to pick all the details from YAML config files `kubectl apply -f [config.yaml]`.
+- Use apply to pick all the details from YAML config files `kubectl apply -f [config.yaml]`.
