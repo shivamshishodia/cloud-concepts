@@ -10,3 +10,4 @@ Kubernetes Practice - Basics
 - Use `minikube cli` for managing cluster and `kubectl cli` for configuring cluster. 
 
 ### 1. Refer basic-kubectl-commands
+### 2. Refer basic-yaml-configs
